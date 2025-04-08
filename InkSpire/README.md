@@ -53,17 +53,18 @@ Users can:
 
 | Day      | Task                             | Description                                                                 |
 |----------|----------------------------------|-----------------------------------------------------------------------------|
-| Day 1    | Planning & Research              | Brainstorming, wireframes, choosing tech stack                             |
+| Day 1    | Planning & Research              | Brainstorming, wireframes, choosing tech stack                              |
 | Day 2-3  | Backend Setup                    | Express.js, MongoDB models, JWT auth                                        |
-| Day 4-5  | Frontend Setup                   | React Vite setup, Tailwind integration, basic routing                      |
-| Day 6-7  | Quiz System                      | Interactive quiz to determine book taste                                   |
-| Day 8-9  | API Integration                  | Connect frontend & backend, setup authentication                          |
-| Day 10-11| Book Recommendation Engine       | Personalization logic, fetch suggestions                                  |
+| Day 4-5  | Frontend Setup                   | React Vite setup, Tailwind integration, basic routing                       |
+| Day 6-7  | Quiz System                      | Interactive quiz to determine book taste                                    |
+| Day 8-9  | API Integration                  | Connect frontend & backend, setup authentication                            |
+| Day 10-11| Book Recommendation Engine       | Personalization logic, fetch suggestions                                    |
 | Day 12-13| Journal Page                     | CRUD journal entries, WYSIWYG editor                                        |
-| Day 14-15| Reading List Manager             | Add/remove books, update status                                            |
-| Day 16-17| UI Enhancements                  | Animations, transitions, theme toggles                                     |
-| Day 18-19| Testing & Debugging              | Cross-browser testing, mobile responsiveness                               |
-| Day 20   | Deployment                       | Netlify for frontend, Render/Vercel for backend                            |
-| Day 21   | Showcase & Feedback              | Final presentation, peer reviews, documentation                            |
+| Day 14-15| Reading List Manager             | Add/remove books, update status                                             |
+| Day 16-17| UI Enhancements                  | Animations, transitions, theme toggles                                      | 
+| Day 18-19| Testing & Debugging              | Cross-browser testing, mobile responsiveness                                |
+| Day 20   | Deployment                       | Netlify for frontend, Render/Vercel for backend                             |
+| Day 21   | Showcase & Feedback              | Final presentation, peer reviews, documentation                             |
 
 ---
+
