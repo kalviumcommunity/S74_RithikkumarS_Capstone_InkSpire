@@ -14,4 +14,10 @@ app.get('/api/books', async (req, res) => {
   res.json(books);
 });
 
+app.post('/api/books', async (req, res) => {
+  const newBook = new Book(req.body);
+  await newBook.save();
+  res.status(201).json(newBook);
+});
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
