@@ -20,4 +20,9 @@ app.post('/api/books', async (req, res) => {
   res.status(201).json(newBook);
 });
 
+app.put('/api/books/:id', async (req, res) => {
+  const updatedBook = await Book.findByIdAndUpdate(req.params.id, req.body, { new: true });
+  res.json(updatedBook);
+});
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
