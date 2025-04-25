@@ -3,9 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import Book from './models/Book.js'; 
-
 dotenv.config();
-
 const app = express();
 const PORT = process.env.PORT || 5000;
 

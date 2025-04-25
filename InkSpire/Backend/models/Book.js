@@ -21,7 +21,7 @@ const bookSchema = new mongoose.Schema({
   },
   image: {
     type: String,
-    required: true // URL or path to image
+    required: true
   },
   rating: {
     type: Number,
@@ -45,6 +45,11 @@ const bookSchema = new mongoose.Schema({
   language: {
     type: String,
     default: 'English'
+  },
+  createdBy: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    required: true
   },
   createdAt: {
     type: Date,

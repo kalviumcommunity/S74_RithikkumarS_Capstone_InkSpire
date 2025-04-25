@@ -21,11 +21,11 @@ const userSchema = new mongoose.Schema({
   },
   favoriteBooks: [{
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Book'
+    ref: 'Book' // References the Book model
   }],
   readingList: [{
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Book'
+    ref: 'Book' // References the Book model
   }],
   journalEntries: [{
     title: String,
@@ -44,5 +44,5 @@ const userSchema = new mongoose.Schema({
   }
 }, { timestamps: true });
 
-const User=mongoose.model('User',userSchema);
+const User = mongoose.model('User', userSchema);
 export default User;
