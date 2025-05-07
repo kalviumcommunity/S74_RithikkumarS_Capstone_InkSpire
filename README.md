@@ -71,3 +71,7 @@ Users can:
 ### Backend deployment link:
 
 https://s74-rithikkumars-capstone-inkspire.onrender.com
+
+### Front-end Deployment link:
+
+https://inkspirelib.netlify.app/
